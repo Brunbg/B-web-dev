@@ -1,105 +1,146 @@
-.ContainerHead{
-    display: block;
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    font-family: "Raleway", sans-serif;
+.ContainerHead {
+  display: block;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
 }
-.ContainerHead div{
-    display: flex;
-    margin-right: 1vw;
-    padding: 1vh 0;
-    
-}
-
-.flex{
-    display: flex;
+.ContainerHead div {
+  display: flex;
+  margin-right: 1vw;
+  padding: 1vh 0;
 }
 
-.justifyend{
-    justify-content: flex-end;
+.flex {
+  display: flex;
 }
 
-
-.column{
-    flex-direction: column;
+.justifyend {
+  justify-content: flex-end;
 }
 
-.Dashboard{
-    margin-top: 4.5vh;
-    position: fixed;
-    height: 100vh;
-    width: 15.5vw;
-    background-color: white;
-}
-.userbanner{
-    margin:2vh 1vw;
-}
-.imgCir{
-    width: 46px;
-    height: 46px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 50%;
-}
-.imgCir img{
-    width: 46px;
+.column {
+  flex-direction: column;
 }
 
-.containerub{
-    max-width: 7vw;
-    margin-left: 2vw;
-    flex-wrap: wrap;
-    
+.Dashboard {
+  margin-top: 4.5vh;
+  position: fixed;
+  height: 100vh;
+  width: 15.5vw;
+  background-color: white;
 }
-.containerub p{
-    margin: 0;
-    color:rgb(17, 17, 17);
+.userbanner {
+  margin: 2vh 1vw;
 }
-.containerub p span{
+.imgCir {
+  width: 46px;
+  height: 46px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.imgCir img {
+  width: 46px;
+}
+
+.containerub {
+  max-width: 7vw;
+  margin-left: 2vw;
+  flex-wrap: wrap;
+}
+.containerub p {
+  margin: 0;
+  color: rgb(17, 17, 17);
+}
+.containerub p span {
+  font-weight: bolder;
+  color: black;
+}
+.buttonsub a {
+  padding: 8px 16px;
+  color: black;
+}
+.containerub a:hover {
+  background-color: grey;
+}
+hr {
+  background-color: rgba(243, 241, 241, 0.952);
+}
+.dashtitle {
+  margin: 2.5vh 0 0.5vh 1vw;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+}
+.menortitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+.optionsdashboard {
+  height: 60%;
+}
+.optionsdashboard a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.optionsdashboard a:hover {
+  background-color: grey;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.containermain {
+  margin-top: 4.5vh;
+  margin-left: 15.5vw;
+  width: calc(100vw - 15.5vw);
+  height: 100vw;
+  padding-left: 1vw;
+}
+.title{
+    padding-top: 2.5vh;
     font-weight: bolder;
-    color: black;
 }
-.buttonsub a{
-    padding: 8px 16px;
-    color: black;
+.mvsuitem{
+    margin-right: 1vw;
+    padding:16px 13px;  
+    width: 382px;
+    height: 135px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
-.containerub a:hover{
-    background-color: grey;
+.teste1{
+    width: 382px;
+    color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
-hr{
-    background-color: rgba(243, 241, 241, 0.952)
+.mvsuitem p{
+    font-size: 24px;
+    color: white;
 }
-.dashtitle{
-    margin: 2.5vh 0 0.5vh 1vw;
-    font-weight: 400;
-    color:rgb(17, 17, 17);
+.mvsutitle{
+    margin-top: 0;
 }
-.menortitle{
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
+
+#one{
+    background-color: rgb(255, 60, 0);
 }
-.optionsdashboard{
-    height: 60%;
+#two{
+    background-color: rgb(13, 134, 233);
 }
-.optionsdashboard a{
-    padding: 8px 16px;
-    text-decoration: none;
-    color:rgb(17, 17, 17);
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
+#three{
+    background-color: rgb(9, 206, 114);
 }
-.optionsdashboard a:hover{
-    background-color: grey;
-    
-}
-.teste{
-    background-color: salmon;
-    width: 800px;
-    height: 800px;
-    margin-top: 4.5vh;
-    margin-left: 15.5vw;
+#four{
+    background-color: rgb(250, 168, 16);
 }
 
