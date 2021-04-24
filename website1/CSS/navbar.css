@@ -1,5 +1,105 @@
+.ContainerHead{
+    display: block;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.ContainerHead div{
+    display: flex;
+    margin-right: 1vw;
+    padding: 1vh 0;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.justifyend{
+    justify-content: flex-end;
+}
 
 
+.column{
+    flex-direction: column;
+}
 
+.Dashboard{
+    margin-top: 4.5vh;
+    position: fixed;
+    height: 100vh;
+    width: 15.5vw;
+    background-color: white;
+}
+.userbanner{
+    margin:2vh 1vw;
+}
+.imgCir{
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imgCir img{
+    width: 46px;
+}
 
+.containerub{
+    max-width: 7vw;
+    margin-left: 2vw;
+    flex-wrap: wrap;
+    
+}
+.containerub p{
+    margin: 0;
+    color:rgb(17, 17, 17);
+}
+.containerub p span{
+    font-weight: bolder;
+    color: black;
+}
+.buttonsub a{
+    padding: 8px 16px;
+    color: black;
+}
+.containerub a:hover{
+    background-color: grey;
+}
+hr{
+    background-color: rgba(243, 241, 241, 0.952)
+}
+.dashtitle{
+    margin: 2.5vh 0 0.5vh 1vw;
+    font-weight: 400;
+    color:rgb(17, 17, 17);
+}
+.menortitle{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+.optionsdashboard{
+    height: 60%;
+}
+.optionsdashboard a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color:rgb(17, 17, 17);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+.optionsdashboard a:hover{
+    background-color: grey;
+    
+}
+.teste{
+    background-color: salmon;
+    width: 800px;
+    height: 800px;
+    margin-top: 4.5vh;
+    margin-left: 15.5vw;
+}
 
