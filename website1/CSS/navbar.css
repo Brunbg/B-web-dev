@@ -94,8 +94,6 @@ hr {
 .container {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  box-sizing: border-box;
 }
 .containermain {
   margin-top: 4.5vh;
@@ -108,11 +106,16 @@ hr {
     padding-top: 2.5vh;
     font-weight: bolder;
 }
-.mvsuitem{
+.mvsu{ 
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.mvsuitem{ /* Pensar em usar um max width e um min width, pensar responsivamente! */
     margin-right: 1vw;
     padding:16px 13px;  
-    width: 382px;
     height: 135px;
+    flex-grow: 1;
+    flex-basis: 0;
     box-sizing: border-box;
     flex-wrap: wrap;
     align-content: flex-start;
