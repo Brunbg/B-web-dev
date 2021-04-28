@@ -1,11 +1,39 @@
+/*Cores background e color*/
+.redb{
+  background-color: rgb(255, 60, 0);
+}
+.blueb{
+  background-color: rgb(13, 134, 233);
+}
+.greenb{
+  background-color: rgb(9, 206, 114);
+}
+.yellowb{
+  background-color: rgb(250, 168, 16);
+}
+.redc{
+color: rgb(255, 60, 0);
+}
+.bluec{
+color: rgb(13, 134, 233);
+}
+.greenc{
+color: rgb(9, 206, 114);
+}
+.yellowc{
+color: rgb(250, 168, 16);
+}
+/*---------------------------------------------*/
 .ContainerHead {
-  display: block;
   position: fixed;
+  top:0;
+  left:0;
   background-color: black;
   width: 100%;
   color: white;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+  z-index: 2;
 }
 .ContainerHead div {
   display: flex;
@@ -26,14 +54,17 @@
 }
 
 .Dashboard {
-  margin-top: 4.5vh;
+  top: 4.5vh;
+  left: 0;
   position: fixed;
   height: 100vh;
-  width: 15.5vw;
+  max-width: 230px;
+  min-width: 230px !important;
   background-color: white;
+  z-index: 1;
 }
 .userbanner {
-  margin: 2vh 1vw;
+  margin: 18px 12px;
 }
 .imgCir {
   width: 46px;
@@ -48,7 +79,7 @@
 
 .containerub {
   max-width: 7vw;
-  margin-left: 2vw;
+  margin-left: 25px;
   flex-wrap: wrap;
 }
 .containerub p {
@@ -94,13 +125,15 @@ hr {
 .container {
   width: 100vw;
   height: 100vh;
+  /*overflow: hidden;*/
 }
 .containermain {
-  margin-top: 4.5vh;
-  margin-left: 15.5vw;
-  width: calc(100vw - 15.5vw);
+  margin-top: 20px;
+  margin-left: 230px;
+  min-width: calc(100vw - 230px);
   height: 100vw;
   padding-left: 1vw;
+  box-sizing: border-box;
 }
 .title{
     padding-top: 2.5vh;
@@ -114,12 +147,20 @@ hr {
     margin-right: 1vw;
     padding:16px 13px;  
     height: 135px;
+    max-width: 380px;
+    min-width: 150px;
     flex-grow: 1;
     flex-basis: 0;
     box-sizing: border-box;
     flex-wrap: wrap;
     align-content: flex-start;
 }
+@media screen and (max-width: 870px) {
+  .mvsuitem{
+    min-width: 210px;
+  }
+}
+
 .teste1{
     width: 382px;
     color: white;
@@ -134,16 +175,29 @@ hr {
     margin-top: 0;
 }
 
-#one{
-    background-color: rgb(255, 60, 0);
+.componentfed{
+  padding: 0 15px;
+  width: 66.66666%;
 }
-#two{
-    background-color: rgb(13, 134, 233);
+.tablefeed{
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif; 
 }
-#three{
-    background-color: rgb(9, 206, 114);
+.tablefeed tr:nth-child(even){
+  background-color:#f1f1f1;
 }
-#four{
-    background-color: rgb(250, 168, 16);
+.tablefeed td:first-child{
+  padding-left: 16px;
 }
+.tablefeed td{
+  padding: 10px 0;
+
+}
+
+
+
+
 
